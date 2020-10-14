@@ -20,13 +20,12 @@ p {
 }
 
 .navbar {
-    height: 80px;
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .logo-emi {
-    max-width: 240px;
+    max-width: 220px;
     min-width: 160px;
     height: 75px;
 }
