@@ -38,6 +38,9 @@ p {
 
 .nav-link:hover {
     color: orange;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .navbar-toggler {
@@ -78,9 +81,19 @@ p {
     border: 1px solid black !important;
 }
 
-.btn-dark {
+.btn-darkenviar {
+    background-color: #1a1a1a;
+    color: white;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#enviarContacto:hover {
+    background-color: grey;
+    color: black;
+    border: 1px solid black;
 }
 
 #iconButtom {
@@ -148,6 +161,14 @@ p {
 .medark {
     background-color: #1a1a1a !important;
     width: 100%;
+}
+
+.border-containers {
+    border: 1px solid black;
+    border-radius: 7%;
+    padding: 15px;
+    height: auto;
+    text-align: center;
 }
 
 .form-control {
